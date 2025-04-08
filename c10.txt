@@ -1,0 +1,18 @@
+clc;
+clear all;
+close all;
+
+% Define symbolic variables
+syms x y;
+
+% Solve the system of equations
+sol = solve(x + 2*y == 8, 2*x + y == 7, [x, y]);
+
+% Convert to double
+x = double(sol.x);
+y = double(sol.y);
+
+% Display results
+disp(' ')
+disp(['x = ', num2str(x)])
+disp(['y = ', num2str(y)])

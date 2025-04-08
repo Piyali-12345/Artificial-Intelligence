@@ -1,0 +1,13 @@
+clc
+clear all
+close all
+x=[1 2 3];
+disp('Value of x')
+disp(x)
+y=10;
+disp('Value of y')
+disp(y)
+%Multiplication by a scalar
+mul=x*y;
+disp('Value of Scalar Multiplication')
+disp(mul)

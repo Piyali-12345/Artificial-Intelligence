@@ -1,0 +1,20 @@
+clc
+clear all
+close all
+x=[1 2 3];
+disp('Value of x')
+disp(x)
+y=[1;2;3];
+disp('Value of y')
+disp(y)
+z=[4 5 6];
+disp('Value of z')
+disp(z)
+%Multiplication of two matrices
+a = x * y;
+disp('Value of * Multiplication between x and y')
+disp(a)
+b = x .* z;
+%dot operator used for element wise multiplication
+disp('Value of .* Multiplication between x and z')
+disp(b)
