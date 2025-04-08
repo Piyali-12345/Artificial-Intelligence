@@ -1,0 +1,11 @@
+% ------>> COMPLEX NUMBERS <<------
+% ------>> Euler's Formula <<------
+clc
+clear all
+close all
+x=(pi/4);
+disp('Value of x')
+disp(x)
+e=cos(x)+(i*(sin(x)));
+disp('Value of e')
+disp(e)
